@@ -1,8 +1,8 @@
 {
   "manifest_version": 2, 
     
-  "name": "Popup Test",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "Scout.js",
+  "description": "Auto-highlights keywords and provides an informational pop-up on hover",
   "version": "1.0",
     
   "content_scripts": [
