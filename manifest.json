@@ -9,7 +9,7 @@
     {
       "matches": ["<all_urls>"],
       "css": ["style.css"],
-      "js": ["script.js"]
+      "js": ["database.js","script.js"]
     }
   ]
 }
