@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,300italic);
 
-.jargon-bust-outline {
+.scout-js-outline {
     background-color:rgba(169,225,196,0);
     border-radius:1px;
     padding:1px 3px;
@@ -13,15 +13,17 @@
 
 @-webkit-keyframes formEntrance {
     0% {opacity:0;}
-    100% {opacity:1;}
+    100% {opacity:1;
+          transform: translateY(0);}
 }
 
 @keyframes formEntrance {
     0% {opacity:0;}
-    100% {opacity:1;}
+    100% {opacity:1;
+          transform: translateY(0);}
 }
 
-.jargon-bust-form {
+.scout-js-form {
     position:absolute;
     top:10;
     left:10;
@@ -37,25 +39,28 @@
     font-size:13px;
     font-weight:300;
     opacity:0;
+    -webkit-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+          transform: translateY(5px);
     -webkit-animation: formEntrance 0.35s ease 0.15s forwards;
     animation: formEntrance 0.35s ease 0.15s forwards;
     transition:all 0.35s ease;
 }
 
-.jargon-bust-form h2 {
+.scout-js-form h2 {
     font-size:15px;
     font-weight:600;
     padding:0;
     margin:0;
 }
 
-.jargon-bust-form p {
+.scout-js-form p {
     margin:0 0 12px;
     padding:0;    
     line-height: 23px;
 }
 
-.jargon-bust-form a {
+.scout-js-form a {
     float:left;
     color:white;
     font-weight:600;
@@ -70,18 +75,18 @@
     font-size:13px;
 }
 
-.main-button {
+.scout-js-main-button {
     width:180px;
     height:40px;
     background-color:#3cb878;
     transition:all 0.35s ease;
 }
 
-.main-button:hover {
+.scout-js-main-button:hover {
     background-color:#2d9d63;
 }
 
-.icon {
+.scout-js-meta {
     width:80px;
     height:40px;
     background-color:#616161;
