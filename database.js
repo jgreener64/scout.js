@@ -1,0 +1,3 @@
+var keywordsDatabase = '{ "keywords" : [' +
+    '{ "name":"Wordpress", "title":"Wordpress" , "description":"Free and open-source web software that can be used to create  websites with dynamic functionality (e.g blogging, e-commerce). Wordpress is based on PHP and MySQL, and is the most popular blogging system in use on the Web.", "url":"wordpress.org" },' +
+    '{ "name":"CSS" , "title":"Cascading Style Sheets (CSS)" , "description":"A style sheet language used for describing the presentation of a document written in HTML.", "url":"css.org" } ]}';
